@@ -1,0 +1,1 @@
+console.log('Sokuja Scraper Test Suite');
