@@ -1,1 +1,20 @@
-{}
+{
+  "name": "sokuja-anime-api",
+  "version": "1.0.0",
+  "description": "Complete REST API for Sokuja Anime Scraper - Deployed on Vercel",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["anime", "scraper", "sokuja", "streaming", "download", "rest-api","vercel"],
+  "author": "sokuja-crapper",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2"
+  }
+}
